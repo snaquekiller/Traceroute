@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controleur.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="341.0" layoutY="1.0" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="65.0" text="Add " />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="Name" layoutX="41.0" layoutY="1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="27.0" prefWidth="85.0" />
+      <TextField fx:id="Last_Name" layoutX="241.0" layoutY="1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="27.0" prefWidth="85.0" />
+      <Label layoutX="154.0" layoutY="1.0" prefHeight="27.0" prefWidth="69.0" text="Last Name" />
+      <Label layoutY="1.0" prefHeight="27.0" prefWidth="42.0" text="Name" />
+      <ListView fx:id="list" editable="true" layoutX="17.0" layoutY="47.0" prefHeight="521.0" prefWidth="356.0" />
+      <ListView fx:id="list2" layoutX="373.0" layoutY="47.0" prefHeight="521.0" prefWidth="356.0" />
+    </children>
+</AnchorPane>
